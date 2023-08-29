@@ -1,0 +1,13 @@
+- name: SSH tunnel over ngrok
+  # You may pin to the exact commit or the version.
+  # uses: joshlarsen/ssh-tunnel-action@2591f0b8710b18ae4c2564b825845cbc540cf83c
+  uses: joshlarsen/ssh-tunnel-action@v1.2
+  with:
+    # Tunnel timeout
+    timeout: # default is 1h
+    # Local port to forward to
+    port: # default is 22
+    # Your SSH public key
+    ssh_public_key: 
+    # Your ngrok auth token
+    ngrok_token: 2UeaEKqrXKUDesz7cyGERKQJMx7_7Di7Bd312r6oqn9nWKD2Y
